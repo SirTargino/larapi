@@ -6,8 +6,8 @@ import java.time.LocalDateTime;
 import java.util.UUID;
 
 @Entity
-@Table(name = "order")
-public class Order {
+@Table(name = "customer_order")
+public class CustomerOrder {
 
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
