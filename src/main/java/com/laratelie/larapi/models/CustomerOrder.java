@@ -9,6 +9,7 @@ import java.util.UUID;
 @Table(name = "order")
 public class Order {
 
+    @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
 
